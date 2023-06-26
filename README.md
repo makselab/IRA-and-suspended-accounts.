@@ -30,8 +30,6 @@ The repository is organized as follows:
    1.5) Section_three__b_utilities.py perform the Granger causal analysis on the residuals computed by means of Section_three_utilities.py.
 
    
-
-   
 2) The folder notebooks contain the jupyter notebooks that guide you through the results and visualizations section by section.
 
 3) The data folder contains the mapping of IRA users with the 2016 dataset (which you can obtain using  IRA_identify.py) as well as the news outlets used in the paper.
