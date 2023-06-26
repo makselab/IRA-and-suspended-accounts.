@@ -17,6 +17,8 @@ TO ADD
 The repository is organized as follows: 
 1) The utility files generate the main results.
    
+   1.0) IRA_identify.py math the IRA users from the IRA dataset released by Twitter in the 2016 dataset. general_utilities and GraphUtils contain functions called in the utilities below.
+   
    1.1) Section_one_a_utilities.py generates the retweets networks per category ( full or sampled one, see paper).
 
    1.2) Section_one_b_utilities.py creates the files containing the information about the tweets in each category, such as source, datetime, tweet_id, etc.
@@ -26,6 +28,8 @@ The repository is organized as follows:
    1.4) Section_three_utilities.py prepare the data for the causal analysis. It collects the  supporting class activities and performs the STL filtering.
 
    1.5) Section_three__b_utilities.py perform the Granger causal analysis on the residuals computed by means of Section_three_utilities.py.
+
+   
 
    
 3) The folder notebooks contain the jupyter notebooks that guide you through the results and visualizations section by section.
