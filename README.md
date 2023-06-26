@@ -12,6 +12,7 @@ The code is provided without any warranty or conditions of any kind. We assume n
 You commit to cite our paper (above) in publications where you use this code.
 
 The dataset containing the retweet networks and the tweet ids of the tweets used in the article is available here: see https://hmakse.ccny.cuny.edu/twitter-analysis/.
+The IRA dataset can be found at: https://osf.io/g4hws/.
 
 The repository is organized as follows: 
 1) The utility files generate the main results.
@@ -31,7 +32,8 @@ The repository is organized as follows:
    
 
    
-3) The folder notebooks contain the jupyter notebooks that guide you through the results and visualizations section by section.
+2) The folder notebooks contain the jupyter notebooks that guide you through the results and visualizations section by section.
+3) The data folder contains part of the ra
    
 # Collective Influence algorithm
 To compute the Collective Influence ranking of nodes in the retweet networks, you must first compile the cython code with : python setup.py build_ext --inplace
