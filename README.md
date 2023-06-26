@@ -28,7 +28,7 @@ The repository is organized as follows:
    1.5) Section_three__b_utilities.py perform the Granger causal analysis on the residuals computed by means of Section_three_utilities.py.
 
    
-3) The folder notebooks contain the jupyter notebooks that guide you through the results and visualizations.
+3) The folder notebooks contain the jupyter notebooks that guide you through the results and visualizations section by section.
    
 # Collective Influence algorithm
 To compute the Collective Influence ranking of nodes in the retweet networks, you must first compile the cython code with : python setup.py build_ext --inplace
