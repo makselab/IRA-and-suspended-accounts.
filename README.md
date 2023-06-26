@@ -17,7 +17,7 @@ TO ADD
 The repository is organized as follows: 
 1) The utility files generate the main results.
    
-   1.0) IRA_identify.py math the IRA users from the IRA dataset released by Twitter in the 2016 dataset. general_utilities and GraphUtils contain functions called in the utilities below.
+   1.0) IRA_identify.py matches the IRA users from the IRA dataset released by Twitter in the 2016 dataset. general_utilities and GraphUtils contain functions called in the utilities below.
    
    1.1) Section_one_a_utilities.py generates the retweets networks per category ( full or sampled one, see paper).
 
