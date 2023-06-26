@@ -14,5 +14,6 @@ You commit to cite our paper (above) in publications where you use this code.
 The dataset containing the retweet networks and the tweet ids of the tweets used in the article is available here:
 TO ADD
 
-Collective Influence algorithm
+# Collective Influence algorithm
 To compute the Collective Influence ranking of nodes in the retweet networks you must first compile the cython code with : python setup.py build_ext --inplace
+Check https://github.com/alexbovet/information_diffusion
