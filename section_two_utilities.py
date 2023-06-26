@@ -15,7 +15,7 @@ from pygenstability import run
 
 #TO DO: improve this part
 import sys
-sys.path.append('/home/matteo/IRA_paper/fake_news_during_election/')
+sys.path.append('fake_news_during_election/')
 
 
 from fake_identify import Are_you_IRA
@@ -23,7 +23,7 @@ from fake_identify import Are_you_IRA
 putin = Are_you_IRA()
 
 
-gran_path = '/sdf/MatteoPaper/'
+gran_path = '*'
 raw_data_path = gran_path + 'rawdata/'
 edgelist_path = gran_path + 'edgelist/'
 
@@ -35,8 +35,8 @@ start_date = '2016-06-01'
 end_date = '2016-11-09'
 
 
-tweet_db_file1 = "/disk2/US2016_alex/complete_trump_vs_hillary_db.sqlite"
-tweet_db_file2 = "/disk2/US2016_alex/complete_trump_vs_hillary_sep-nov_db.sqlite"
+tweet_db_file1 = "*complete_trump_vs_hillary_db.sqlite"
+tweet_db_file2 = "*complete_trump_vs_hillary_sep-nov_db.sqlite"
 
 graph_type_table_map = {'retweet': 'tweet_to_retweeted_uid',
                         'reply' : 'tweet_to_replied_uid',
