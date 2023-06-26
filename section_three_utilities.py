@@ -19,7 +19,7 @@ from general_utilities import get_get_outliers
 
 #TO DO: improve this part
 import sys
-sys.path.append('/home/matteo/IRA_paper/fake_news_during_election/')
+sys.path.append('fake_news_during_election/')
 
 
 from fake_identify import Are_you_IRA
@@ -28,12 +28,12 @@ Putin = Are_you_IRA()
 
 
 
-urls_db_file = '/sdf/IRA/urls_db.sqlite'
-DB1_NAME = "/disk2/US2016_alex/complete_trump_vs_hillary_db.sqlite"
-DB2_NAME = "/disk2/US2016_alex/complete_trump_vs_hillary_sep-nov_db.sqlite"
+urls_db_file = '*/urls_db.sqlite'
+DB1_NAME = "*/complete_trump_vs_hillary_db.sqlite"
+DB2_NAME = "*/complete_trump_vs_hillary_sep-nov_db.sqlite"
 
 
-gran_path = '/sdf/MatteoPaper/'
+gran_path = '*'
 section_four_path = gran_path + 'section_four/'
 section1_data_path = gran_path + 'section_one/' 
 section_two_path = gran_path + 'section_two/'
