@@ -16,7 +16,9 @@ TO ADD
 
 The repository is organized as follows: 
 1) The utility files generate the main results.
-1) The folder notebooks contain the jupyter notebooks that guide you through the results and visualizations.
+   1.1) Section_one_a_utilities.py  generates the retweets networks per category ( full or sampled one, see paper)
+   1.2) 
+3) The folder notebooks contain the jupyter notebooks that guide you through the results and visualizations.
    
 # Collective Influence algorithm
 To compute the Collective Influence ranking of nodes in the retweet networks, you must first compile the cython code with : python setup.py build_ext --inplace
