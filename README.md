@@ -22,6 +22,12 @@ The repository is organized as follows:
    1.2) Section_one_b_utilities.py creates the files containing the information about the tweets in each category, such as source, datetime, tweet_id, etc.
 
    1.3) Section_two_utilities.py  created the interactions networks and aggregated networks ( both ego and expanded, see paper).
+
+   1.4) Section_three_utilities.py prepare the data for the causal analysis. It collects the  supporting class activities and performs the STL filtering.
+
+   1.5)
+
+   
 3) The folder notebooks contain the jupyter notebooks that guide you through the results and visualizations.
    
 # Collective Influence algorithm
