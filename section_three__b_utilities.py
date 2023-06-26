@@ -26,7 +26,7 @@ import os
 
 import time
 
-gran_path = '/sdf/MatteoPaper/'
+gran_path = '*'
 section_four_path = gran_path + 'section_four/'
 
 resample_freq = '15min'
