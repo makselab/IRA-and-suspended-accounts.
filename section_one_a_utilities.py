@@ -321,11 +321,11 @@ if __name__ == "__main__":
     #9/5/2023
     #t0 = time.time()
     #sample_retweet_networks(n_times = 100)
-    #print('Categories networks created in ', time.time()-t0,' seconds')    
+    #print('Sampled categories networks created in ', time.time()-t0,' seconds')    
     
     
     #10/5/2023
     t0 = time.time()
     original_ids()
-    print('Categories networks created in ', time.time()-t0,' seconds')    
+    print('Original ids processed in  ', time.time()-t0,' seconds')    
     
