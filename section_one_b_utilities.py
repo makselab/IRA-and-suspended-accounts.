@@ -3,12 +3,12 @@ import time
 import json
 import pandas as pd
 
-gran_path = '/sdf/MatteoPaper/'
-section1_data_path = gran_path+'section_one/'
+gran_path = '**'
+section1_data_path = gran_path+'**/'
 
-urls_db_file = '/sdf/IRA/urls_db.sqlite'
-DB1_NAME = "/disk2/US2016_alex/complete_trump_vs_hillary_db.sqlite"
-DB2_NAME = "/disk2/US2016_alex/complete_trump_vs_hillary_sep-nov_db.sqlite"
+urls_db_file = '**'
+DB1_NAME = "**"
+DB2_NAME = "**"
 
 
 start_date = '2016-06-01'
