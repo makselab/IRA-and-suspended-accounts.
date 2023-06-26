@@ -11,8 +11,7 @@ The code is provided without any warranty or conditions of any kind. We assume n
 
 You commit to cite our paper (above) in publications where you use this code.
 
-The dataset containing the retweet networks and the tweet ids of the tweets used in the article is available here:
-TO ADD
+The dataset containing the retweet networks and the tweet ids of the tweets used in the article is available here: http://www-levich.engr.ccny.cuny.edu/~hernanlab/uploads/tweet_ids_dataset.zip (see https://hmakse.ccny.cuny.edu/twitter-analysis/).
 
 The repository is organized as follows: 
 1) The utility files generate the main results.
