@@ -46,9 +46,9 @@ official_twitter_clients = ['Twitter for iPhone',
 'Twitter for BlackBerry®',
 'OS X']
 
-urls_db_file = '/sdf/IRA/urls_db.sqlite'
-tweet_db_file1 = "/disk2/US2016_alex/complete_trump_vs_hillary_db.sqlite"
-tweet_db_file2 = "/disk2/US2016_alex/complete_trump_vs_hillary_sep-nov_db.sqlite"
+urls_db_file = '**'
+tweet_db_file1 = "**"
+tweet_db_file2 = "**"
 
 
 sql_query_urls = """SELECT tweet_id FROM urls.urls
@@ -61,7 +61,7 @@ sql_query_urls = """SELECT tweet_id FROM urls.urls
 media_types = ['fake', 'far_right', 'right', 'lean_right',
                'center', 'lean_left', 'left','far_left']
 
-gran_path = '/sdf/MatteoPaper/'
+gran_path = '**'
 edgelist_path = gran_path + 'edgelist'
 categories_network = gran_path + 'categories_networks'
 section1_data_path = gran_path + 'section_one/' 
@@ -325,7 +325,7 @@ if __name__ == "__main__":
     
     
     #10/5/2023
-    #t0 = time.time()
-    #original_ids()
-    #print('Categories networks created in ', time.time()-t0,' seconds')    
+    t0 = time.time()
+    original_ids()
+    print('Categories networks created in ', time.time()-t0,' seconds')    
     
