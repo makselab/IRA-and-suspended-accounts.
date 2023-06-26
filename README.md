@@ -33,7 +33,8 @@ The repository is organized as follows:
 
    
 2) The folder notebooks contain the jupyter notebooks that guide you through the results and visualizations section by section.
-3) The data folder contains part of the ra
+
+3) The data folder contains the mapping of IRA users with the 2016 dataset (which you can obtain using  IRA_identify.py) as well as the news outlets used in the paper.
    
 # Collective Influence algorithm
 To compute the Collective Influence ranking of nodes in the retweet networks, you must first compile the cython code with : python setup.py build_ext --inplace
