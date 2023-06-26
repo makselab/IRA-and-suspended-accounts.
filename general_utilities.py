@@ -24,7 +24,7 @@ pyximport.install(setup_args={"script_args" : ["--verbose"]})
 
 import CIcython
 
-path='/home/matteo/IRA_paper/Final_codes_and_data/'
+path='*/Final_codes_and_data/'
 
 
 #add CI values to graph
