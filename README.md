@@ -17,11 +17,11 @@ TO ADD
 The repository is organized as follows: 
 1) The utility files generate the main results.
    
-   1.1) Section_one_a_utilities.py generates the retweets networks per category ( full or sampled one, see paper)
+   1.1) Section_one_a_utilities.py generates the retweets networks per category ( full or sampled one, see paper).
 
-   1.2) Section_one_b_utilities.py creates the files containing the information about the tweets in each category, such as source, datetime, tweet_id, etc
+   1.2) Section_one_b_utilities.py creates the files containing the information about the tweets in each category, such as source, datetime, tweet_id, etc.
 
-   
+   1.3) Section_two_utilities.py  created the interactions networks and aggregated networks ( both ego and expanded, see paper).
 3) The folder notebooks contain the jupyter notebooks that guide you through the results and visualizations.
    
 # Collective Influence algorithm
