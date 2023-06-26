@@ -25,7 +25,7 @@ The repository is organized as follows:
 
    1.4) Section_three_utilities.py prepare the data for the causal analysis. It collects the  supporting class activities and performs the STL filtering.
 
-   1.5)
+   1.5) Section_three__b_utilities.py perform the Granger causal analysis on the residuals computed by means of Section_three_utilities.py.
 
    
 3) The folder notebooks contain the jupyter notebooks that guide you through the results and visualizations.
